@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>The Landon Hotel:  You'll Feel At Home in Our Neighborhood</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<header class="row">
+			<div class="col-sm-3 logo"><img src="images/logo.jpg" alt="The Landon Hotel. "></div>
+			<div class="col-sm-9 tagline">Get in touch with the artist</div>
+		</header>
+		<div class="row">
+			<nav class="navbar navbar-default" role="navigation">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="navbar">
+			      <ul class="nav navbar-nav">
+			        <li><a href="index.html">Home</a></li>
+			        <li><a href="execs.html">Images</a></li>
+			        <li class="active"><a href="contact.html">Contact</a></li>
+			      </ul>
+			    </div><!-- end navbar-collapse -->
+			  </div><!-- end container-fluid -->
+			</nav>
+		</div>
+		<div id="contacts">
+   <div class="row">	
+     <!-- Alignment -->
+	<div class="col-sm-offset-3 col-sm-6">
+	   <!-- Form itself -->
+          <form name="sentMessage" class="well" id="contactForm"  novalidate>
+	       <legend>Contact me</legend>
+		 <div class="control-group">
+                    <div class="controls">
+			<input type="text" class="form-control" 
+			   	   placeholder="Full Name" id="name" required
+			           data-validation-required-message="Please enter your name" />
+			  <p class="help-block"></p>
+		   </div>
+	         </div> 	
+                <div class="control-group">
+                  <div class="controls">
+			<input type="email" class="form-control" placeholder="Email" 
+			   	            id="email" required
+			   		   data-validation-required-message="Please enter your email" />
+		</div>
+	    </div> 	
+			  
+               <div class="control-group">
+                 <div class="controls">
+				 <textarea rows="10" cols="100" class="form-control" 
+                       placeholder="Message" id="message" required
+		       data-validation-required-message="Please enter your message" minlength="5" 
+                       data-validation-minlength-message="Min 5 characters" 
+                        maxlength="999" style="resize:none"></textarea>
+		</div>
+               </div> 		 
+	     <div id="success"> </div> <!-- For success/fail messages -->
+	    <button type="submit" class="btn btn-primary pull-right">Send</button><br />
+          </form>
+	</div>
+      </div>
+    </div>
+   </div>
+	
+	
+ <!-- JS FILES -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+ <script src="./js/jqBootstrapValidation.js"></script>
+ <script src="./js/contact_me.js"></script>
+ <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">  
+</script>
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/jqBootstrapValidation.js"></script><script type="text/javascript" src="./js/contact_me.js"></script>
+
+		
+		<footer class="row siteinfo">
+			<a href="http://www.iiifilomena.com"></a>
+		</footer>
+	</div><!-- end container -->   
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
